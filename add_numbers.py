@@ -1,0 +1,8 @@
+print("hello world")
+name = input("Enter your name -")
+print("my name is ",name)
+print("i like footy")
+num1 = input("Enter your first number")
+num2 = input("Enter your second number")
+sum = int(num1) + int(num2)
+print(sum)
