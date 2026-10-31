@@ -23,10 +23,11 @@ print("better than last year: ", total_field > last_year_field)
 print("worse than last year: ", total_field < last_year_field)
 print("same as last year: ", total_field == last_year_field)
 
+
 total_harvest += 50
 print("updated total harvest after adding 50 kg: ", total_harvest)
 
 total_harvest -= 30
 print("updated total harvest after subtracting 30 kg: ", total_harvest)
-bags total = total_harvest // 50
+bags_total = total_harvest // 50
 print("updated total bags after adding and subtracting: ", bags_total)
